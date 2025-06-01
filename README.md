@@ -1,7 +1,7 @@
 # spam_classfier
 
 A new Flutter project.
-
+A spam classifier is the project which hwlp us to know which msg is spam or ham.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
