@@ -52,11 +52,11 @@ Example:
 
 
 
-### Message Input
-     - HAM Message
+### Message Input 
+### HAM Message
 ![ham (2)](https://github.com/user-attachments/assets/f72d4b23-235d-4d68-a621-53f038f76386)
 
-     - SPAM message
+### SPAM message
 ![spam](https://github.com/user-attachments/assets/aacaa897-8063-4c8e-bc0a-c6aa64072471)
 
 
