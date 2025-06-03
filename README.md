@@ -47,13 +47,15 @@ Example:
 
 ### Home Screen and Prediction Result
 
-![WhatsApp Image 2025-06-03 at 10 09 48 PM](https://github.com/user-attachments/assets/b8c5b2b3-906c-45d3-944d-8a78e8d5ed6b)
+![home](https://github.com/user-attachments/assets/2ed4f1f6-53ed-47f8-a896-8985855bfedb)
 
-![Home Screen](screenshots/home_screen.png)
+
+
 
 ### Message Input
-
+     - HAM Message
 ![WhatsApp Image 2025-06-03 at 10 09 48 PM (1)](https://github.com/user-attachments/assets/108787c9-b6e3-411e-904a-946d0696c7eb)
+     - SPAM message
 ![WhatsApp Image 2025-06-03 at 10 09 49 PM](https://github.com/user-attachments/assets/1dfa9328-d9da-4ace-9e2a-25e4ed362427)
 
 
