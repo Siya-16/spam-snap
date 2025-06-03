@@ -54,9 +54,11 @@ Example:
 
 ### Message Input
      - HAM Message
-![WhatsApp Image 2025-06-03 at 10 09 48 PM (1)](https://github.com/user-attachments/assets/108787c9-b6e3-411e-904a-946d0696c7eb)
+![ham (2)](https://github.com/user-attachments/assets/f72d4b23-235d-4d68-a621-53f038f76386)
+
      - SPAM message
-![WhatsApp Image 2025-06-03 at 10 09 49 PM](https://github.com/user-attachments/assets/1dfa9328-d9da-4ace-9e2a-25e4ed362427)
+![spam](https://github.com/user-attachments/assets/aacaa897-8063-4c8e-bc0a-c6aa64072471)
+
 
 
 - Technologies Used
