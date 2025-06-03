@@ -1,16 +1,87 @@
-# spam_classfier
+### Spam Message Classifiation
 
-A new Flutter project.
-A spam classifier is the project which hwlp us to know which msg is spam or ham.
-## Getting Started
+Spam Message Classification is a mobile application built using Flutter that uses machine learning to classify text messages as Spam or Not Spam. It integrates with a FastAPI backend running a Naive Bayes classifier and stores classified messages in Supabase.
 
-This project is a starting point for a Flutter application.
+The app allows users to enter messages, get instant predictions, and swipe messages to manually label them, improving dataset quality.
 
-A few resources to get you started if this is your first Flutter project:
+- Key Use Case:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Every day, users receive dozens of unwanted or spammy messages. This app helps in identifying and filtering spam messages . It's lightweight, mobile-friendly, and deployable, making it useful for educational, research, or even practical anti-spam tools.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Project Goals:
+
+* Build an model that detects spam messages.
+
+* Create a user-friendly mobile interface to scan and analyze messages.
+
+* Store messages and results in a cloud database (Supabase).
+
+* Allow real-time model interaction and result visualization.
+
+* Provide an easy-to-deploy solution using open-source tools.
+
+- Live Backend API
+[https://spam-snap-api.onrender.com/predict]
+
+- Features
+
+* Classify messages using a trained Naive Bayes model
+* FlipCard animation to reveal results (Spam or Not Spam)
+* Save all predictions to Supabase (with confidence level)
+* Add new messages easily via floating action button
+* Clean and user-friendly UI
+
+- How It Works
+
+1. You type or paste a message into the app.
+2. The message is sent to the FastAPI backend deployed on Render.
+3. The backend returns a prediction and confidence score.
+4. The result is shown using a flip-card UI.
+5. All predictions are stored in the Supabase database.
+
+- Screenshots
+
+Include screenshots in a /screenshots folder and reference them like this:
+
+Example:
+
+### Home Screen and Prediction Result
+
+![WhatsApp Image 2025-06-03 at 10 09 48 PM](https://github.com/user-attachments/assets/b8c5b2b3-906c-45d3-944d-8a78e8d5ed6b)
+
+![Home Screen](screenshots/home_screen.png)
+
+### Message Input
+
+![WhatsApp Image 2025-06-03 at 10 09 48 PM (1)](https://github.com/user-attachments/assets/108787c9-b6e3-411e-904a-946d0696c7eb)
+![WhatsApp Image 2025-06-03 at 10 09 49 PM](https://github.com/user-attachments/assets/1dfa9328-d9da-4ace-9e2a-25e4ed362427)
+
+
+- Technologies Used
+
+Frontend (Flutter):
+
+* Flutter (Dart)
+* flip\_card
+* supabase\_flutter
+* http
+
+Backend (FastAPI):
+
+* Python
+* FastAPI
+* scikit-learn (Naive Bayes)
+* joblib
+* Render (deployment)
+
+Database:
+
+* Supabase (PostgreSQL)
+
+- Deployment
+
+* Backend is deployed on Render.
+* Flutter app can be run on emulator/device or built for Android/iOS.
+
+
+
