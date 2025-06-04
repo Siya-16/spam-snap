@@ -3,12 +3,12 @@
 Spam Message Classification is a mobile application built using Flutter that uses machine learning to classify text messages as Spam or Not Spam. It integrates with a FastAPI backend running a Naive Bayes classifier and stores classified messages in Supabase.
 
 The app allows users to enter messages, get instant predictions, and swipe messages to manually label them, improving dataset quality.
-**
-- Key Use Case:**
+
+### -Key Use Case:
 
 Every day, users receive dozens of unwanted or spammy messages. This app helps in identifying and filtering spam messages . It's lightweight, mobile-friendly, and deployable, making it useful for educational, research, or even practical anti-spam tools.
 
-**- Project Goals:**
+### -Project Goals:
 
 * Build an model that detects spam messages.
 
@@ -20,10 +20,13 @@ Every day, users receive dozens of unwanted or spammy messages. This app helps i
 
 * Provide an easy-to-deploy solution using open-source tools.
 
-**- Live Backend API**
+### -App Link
+https://drive.google.com/file/d/1nQ4kg4gNg8i5L1hlYLhpRt8674NJ2p_m/view?usp=sharing
+
+### -Live Backend API
 [https://spam-snap-api.onrender.com/predict]
 
-**- Features**
+### -Features
 
 * Classify messages using a trained Naive Bayes model
 * FlipCard animation to reveal results (Spam or Not Spam)
@@ -31,7 +34,7 @@ Every day, users receive dozens of unwanted or spammy messages. This app helps i
 * Add new messages easily via floating action button
 * Clean and user-friendly UI
 
-**- How It Works**
+### -How It Works
 
 1. You type or paste a message into the app.
 2. The message is sent to the FastAPI backend deployed on Render.
@@ -39,7 +42,7 @@ Every day, users receive dozens of unwanted or spammy messages. This app helps i
 4. The result is shown using a flip-card UI.
 5. All predictions are stored in the Supabase database.
 
-**- Screenshots**
+### -Screenshots
 
 Include screenshots in a /screenshots folder and reference them like this:
 
@@ -61,16 +64,16 @@ Example:
 
 
 
-**- Technologies Used**
-**
-Frontend (Flutter):**
+### -Technologies Used
+
+### -Frontend (Flutter):
 
 * Flutter (Dart)
 * flip\_card
 * supabase\_flutter
 * http
 
-****Backend (FastAPI):
+### -Backend (FastAPI):
 
 * Python
 * FastAPI
@@ -78,8 +81,8 @@ Frontend (Flutter):**
 * joblib
 * Render (deployment)
 
-**Database:
-**
+### -Database:
+
 * Supabase (PostgreSQL)
 
 **- Deployment**
