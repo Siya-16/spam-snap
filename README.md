@@ -20,11 +20,6 @@ Every day, users receive dozens of unwanted or spammy messages. This app helps i
 
 * Provide an easy-to-deploy solution using open-source tools.
 
-### -App Link
-https://drive.google.com/file/d/1nQ4kg4gNg8i5L1hlYLhpRt8674NJ2p_m/view?usp=sharing
-
-### -Live Backend API
-[https://spam-snap-api.onrender.com/predict]
 
 ### -Features
 
